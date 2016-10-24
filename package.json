@@ -1,0 +1,41 @@
+{
+  "name": "vinyl-fork",
+  "version": "0.1.0",
+  "description": "Fork a vinyl stream",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "tape test/index.js",
+    "cov": "nyc --reporter=lcov npm test",
+    "codecov": "npm run cov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/vinyl-fork.git"
+  },
+  "keywords": [
+    "vinyl",
+    "gulpfriendly",
+    "fork",
+    "bulbo"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/vinyl-fork/issues"
+  },
+  "homepage": "https://github.com/kt3k/vinyl-fork#readme",
+  "dependencies": {
+    "duplexer2": "^0.1.4",
+    "merge-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "nyc": "^8.3.2",
+    "standard": "^8.4.0",
+    "tape": "^4.6.2",
+    "through2": "^2.0.1"
+  }
+}
