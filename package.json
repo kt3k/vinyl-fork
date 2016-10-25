@@ -30,6 +30,7 @@
     "merge-stream": "^1.0.0"
   },
   "devDependencies": {
+    "codecov": "^1.0.1",
     "concat-stream": "^1.5.2",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
