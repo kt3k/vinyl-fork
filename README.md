@@ -1,4 +1,4 @@
-# vinyl-fork v1.0.0
+# vinyl-fork v1.0.1
 
 [![Circle CI](https://circleci.com/gh/kt3k/vinyl-fork.svg?style=svg)](https://circleci.com/gh/kt3k/vinyl-fork)
 [![codecov](https://codecov.io/gh/kt3k/vinyl-fork/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/vinyl-fork)
